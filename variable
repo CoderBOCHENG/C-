@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int i = 1,j;
+  j=2;
+  cout<<i<<ends<<j<<end1;
+  i = 3;
+  cout<<i
+}
+
+
+
+
+
+
+
+example we put "j" as the name of the variable
+
+"=" -> assign a statement, which is put the number on the right of the "=" to the 
+variable on the left side of the "="
+
