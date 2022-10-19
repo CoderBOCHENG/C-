@@ -18,3 +18,41 @@ int main() {
   cout << "Hello World!";
   return 0;
 }
+
+
+
+
+
+/* breaking down
+
+#INCLUDE<IOSTREAM>
+1. syntax format
+#include<>
+2. Role
+add a header file
+there are many functions/class defined in C++ that we cn use directly. We must import the function or class we need into the program in advance through the header file, otherwise we cannot use them, if we do, error will be reported when we run the program
+
+
+
+
+USING NAMESPACE STD;
+
+1. syntax format
+fixed format. just copy the code
+
+2.role
+use a namespace
+ensure that cin,cout and other C++ standard commands can be used.
+if unused, error will be reported when we compile the program
+
+
+
+INT MAIN()
+
+1. role
+define the main function
+it is used to implement the main program
+
+2. attention
+the end of parentheses does not need ";"
+followed by {}, the codes in braces is the
