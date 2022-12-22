@@ -1,0 +1,1 @@
+#include <iostream>using namespace std;#define Limit 100#include <string>#include <math.h>#include <vector>int main(){	int N, x[Limit],temp, a, result=0;	cin >> N;	for(int i=0;i<N;i++)	{		cin>>x[i];		a = x[i]%10;		temp = x[i]/10;		while(temp)		{			a -= temp%10;			temp /= 10;		}		if(a > 0)		{			result++;		}	}	cout<<result<<endl;	return 0;}
